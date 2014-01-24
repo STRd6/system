@@ -6,7 +6,7 @@
     "README.md": {
       "path": "README.md",
       "mode": "100644",
-      "content": "system\n======\n\nBringing method to the madness.\n\nWherein I attempt to document my system for creating applications using a\nserverless architecture.\n\nEditor\n------\n\nThe primary component is the editor. It publishes applications to github pages.\nSince the applications are simply static html files, they can be published\nanywhere: self-hosted on a shared server, run with nginx on dokku, or run with\na static Heroku buildpack. They can truly run anywhere.\n\n[More...](../../editor/docs)\n\nServices\n--------\n\nServices are front-end-less components that can be used by the \"serverless\"\napplications. They can be hosted for free on Heroku, or you can self-host them\non dokku or similar.\n",
+      "content": "system\n======\n\nBringing method to the madness.\n\nWherein I attempt to document my system for creating applications using a\nserverless architecture.\n\nEditor\n------\n\nThe primary component is the editor. It publishes applications to github pages.\nSince the applications are simply static html files, they can be published\nanywhere: self-hosted on a shared server, run with nginx on dokku, or run with\na static Heroku buildpack. They can truly run anywhere.\n\n[See it in action](/editor)\n\n[More...](/editor/docs)\n\nServices\n--------\n\nServices are front-end-less components that can be used by the \"serverless\"\napplications. They can be hosted for free on Heroku, or you can self-host them\non dokku or similar.\n",
       "type": "blob"
     },
     "pixie.cson": {
