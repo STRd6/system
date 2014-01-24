@@ -14,7 +14,9 @@ Since the applications are simply static html files, they can be published
 anywhere: self-hosted on a shared server, run with nginx on dokku, or run with
 a static Heroku buildpack. They can truly run anywhere.
 
-[More...](../../editor/docs)
+[See it in action](/editor)
+
+[More...](/editor/docs)
 
 Services
 --------
