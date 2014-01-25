@@ -11,8 +11,8 @@ Editor
 
 The primary component is the editor. It publishes applications to github pages.
 Since the applications are simply static html files, they can be published
-anywhere: self-hosted on a shared server, run with nginx on dokku, or run with
-a static Heroku buildpack. They can truly run anywhere.
+anywhere: self-hosted on a shared server, Amazon S3, run with nginx on dokku, 
+or with a static Heroku buildpack. They can truly run anywhere.
 
 [See it in action](/editor)
 
