@@ -18,6 +18,14 @@ or with a static Heroku buildpack. They can truly run anywhere.
 
 [More...](/editor/docs)
 
+CLI
+---
+
+If the self hosting web based editor isn't your thing you can use whatever tools
+you like on your local computer, then build the app with our CLI.
+
+[More...](http://distri.github.io/cli/docs)
+
 Services
 --------
 
