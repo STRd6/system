@@ -18,7 +18,7 @@
               <div class="pilwrap">
                 <a class="pilcrow" href="#section-1">&#182;</a>
               </div>
-              <h1 id="system">system</h1>
+              <h1 id="the-system">The System</h1>
 
             </div>
             <div class="content"><pre><code>
@@ -34,8 +34,8 @@
               </div>
               <p>Bringing method to the madness.</p>
 <p>Wherein I attempt to document my system for creating applications using a
-serverless architecture.</p>
-<h2 id="editor">Editor</h2>
+&quot;serverless&quot; architecture.</p>
+<h2 id="description">Description</h2>
 
             </div>
             <div class="content"><pre><code>
@@ -49,13 +49,15 @@ serverless architecture.</p>
               <div class="pilwrap">
                 <a class="pilcrow" href="#section-3">&#182;</a>
               </div>
-              <p>The primary component is the editor. It publishes applications to github pages.
-Since the applications are simply static html files, they can be published
-anywhere: self-hosted on a shared server, Amazon S3, run with nginx on dokku, 
-or with a static Heroku buildpack. They can truly run anywhere.</p>
-<p><a href="/editor">See it in action</a></p>
-<p><a href="/editor/docs">More...</a></p>
-<h2 id="cli">CLI</h2>
+              <p>Web applications have become too monolithic and too complicated. My goal is to
+remedy that by creating a collection of independent modules that enable the
+creation of simpler components.</p>
+<p>A classic Rails application contains server code, database code, JavaSrcipt,
+Ruby, CSS, HTML, one or more templating languages, and probably several embedded
+services. This madness must come to an end.</p>
+<p>The natural split would be to seperate frontend JS, HTML, CSS applications from
+backend services.</p>
+<h2 id="web-applications">Web Applications</h2>
 
             </div>
             <div class="content"><pre><code>
@@ -69,9 +71,8 @@ or with a static Heroku buildpack. They can truly run anywhere.</p>
               <div class="pilwrap">
                 <a class="pilcrow" href="#section-4">&#182;</a>
               </div>
-              <p>If the self hosting web based editor isn&#39;t your thing you can use whatever tools
-you like on your local computer, then build the app with our CLI.</p>
-<p><a href="http://distri.github.io/cli/docs">More...</a></p>
+              <p>Web applications are static HTML documents that live on the internet. That is
+all they must be.</p>
 <h2 id="services">Services</h2>
 
             </div>
@@ -89,6 +90,64 @@ you like on your local computer, then build the app with our CLI.</p>
               <p>Services are front-end-less components that can be used by the &quot;serverless&quot;
 applications. They can be hosted for free on Heroku, or you can self-host them
 on dokku or similar.</p>
+<h2 id="editor">Editor</h2>
+
+            </div>
+            <div class="content"><pre><code>
+</code></pre>
+</div>
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              <div class="pilwrap">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p>The primary component is the editor. It publishes applications to github pages.
+Since the applications are simply static HTML and assets, they can be published
+anywhere: self-hosted on a shared server, Amazon S3, run with nginx on dokku, 
+or with a static Heroku buildpack. They can truly run anywhere.</p>
+<p><a href="/editor">See it in action</a></p>
+<p><a href="/editor/docs">More...</a></p>
+<h2 id="cli">CLI</h2>
+
+            </div>
+            <div class="content"><pre><code>
+</code></pre>
+</div>
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              <div class="pilwrap">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>If the self hosting web based editor isn&#39;t your thing you can use whatever tools
+you like on your local computer, then build the app with our CLI.</p>
+<p><a href="http://distri.github.io/cli/docs">More...</a></p>
+<h2 id="philosophy">Philosophy</h2>
+
+            </div>
+            <div class="content"><pre><code>
+</code></pre>
+</div>
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              <div class="pilwrap">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>One may think of this movement as a sort of &quot;anti-Rails&quot;, but it is actually
+much closer to the original intention of Rails when it was younger.</p>
+<p>Applications used to be simpler, but as time progresses complications ensue.
+This is the natural order of things. At some point in order to continue we must
+split and diversify with simpler more focused pieces. Complexity necessitates a
+simplifing divergence, which again allows for more complex growth in an endless
+cycle. So it goes.</p>
 
             </div>
             <div class="content"><pre><code>
