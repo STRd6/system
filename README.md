@@ -23,8 +23,8 @@ backend services.
 Web Applications
 ----------------
 
-Web applications are static HTML documents that live on the internet. That is
-all they must be.
+Web applications are static HTML documents that have access to the internet. 
+That is all they must be and nothing more.
 
 Services
 --------
